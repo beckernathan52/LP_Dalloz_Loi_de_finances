@@ -1,0 +1,525 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Base */
+main {
+    font-family: "Poppins", sans-serif;
+    color: #0D1E46;
+}
+
+main section .section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Home section */
+#homeSection {
+    background: linear-gradient(-90deg, rgba(236, 245, 255, 0) 5%, #ECF5FF 75%);
+}
+
+#homeSection .section-container {
+    padding: 40px 20px;
+}
+
+#homeSection h1 {
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#homeSection .sub-title {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    display: block;
+    width: max-content;
+    margin: 20px 0 40px 0;
+}
+
+#homeSection ul li {
+    display: flex;
+    font-size: 15px;
+    line-height: 22.5px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#homeSection ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#homeSection ul li span {
+    font-weight: 600;
+}
+
+#homeSection #formContainer {
+    height: 817px;
+    margin: 30px 0;
+    box-shadow: 5px 6px 9px 0px #0D1E4621;
+    border: 1px solid #CBDAEB;
+    border-radius: 22px;
+    background-color: white;
+    padding: 20px;
+}
+
+#homeSection #formContainer p {
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#homeSection #proof h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#homeSection #proof h2 span {
+    color: #E66558;
+}
+
+#homeSection .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#homeSection .cards-container article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#homeSection .cards-container article .number {
+    color: #E66558;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#homeSection .cards-container article p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    max-width: 180px;
+}
+
+#homeSection .cards-container article p span {
+    font-weight: 700;
+}
+
+#homeSection .cards-container article img {
+    object-fit: cover;
+    width: 154px;
+}
+
+/* Section fiscalités */
+#fiscalite .section-container {
+    padding: 40px 20px 0 20px;
+}
+
+#fiscalite .title-container {
+    text-align: center;
+}
+
+#fiscalite .title-container p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+#fiscalite .title-container h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 20px 0 30px 0;
+}
+
+#fiscalite .content ul li {
+    margin-bottom: 20px;
+}
+
+#fiscalite .content ul li .text {
+    display: flex;
+    align-items: center;
+}
+
+#fiscalite .content ul li .text h3 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+#fiscalite .content ul li .text img {
+    height: 24px;
+    width: 24px;
+}
+
+#fiscalite .content ul li p {
+    margin-left: 34px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+#fiscalite .content ul a {
+    background-color: #E66558;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 5px;
+    display: block;
+    width: max-content;
+    border: solid 1px #E66558;
+    transition: all ease 0.3s;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#fiscalite .content ul a:hover {
+    background-color: white;
+    color: #E66558;
+}
+
+#fiscalite .content figure {
+    margin-top: 40px;
+    height: 250px;
+    overflow: hidden;
+}
+
+#fiscalite .content figure img {
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: -1;
+}
+
+
+/* Folder section */
+#folderSection {
+    background: linear-gradient(278.86deg, #ECF5FF 0.02%, rgba(236, 245, 255, 0.594717) 59.18%, rgba(236, 245, 255, 0) 81.75%);
+}
+
+#folderSection .section-container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#folderSection .sub-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#folderSection h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 15px 0 20px 0;
+}
+
+#folderSection #engagements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+#folderSection #engagements span {
+    background-color: #225CB5CC;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    width: max-content;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#folderSection #instructions {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+#folderSection #instructions span {
+    color: #E66558;
+}
+
+#folderSection .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#folderSection .cards-container article {
+    box-shadow: 5px 6px 9px 0px #0D1E4621;
+    border: 1px solid #CBDAEB;
+    border-radius: 17px;
+    padding: 20px;
+    max-width: 295px;
+    width: 100%;
+}
+
+#folderSection .cards-container article figure {
+    box-shadow: 8.87px 12.67px 30.41px 0px #190F2C05;
+    background: #D3DEF0;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 32px;
+    max-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+}
+
+#folderSection .cards-container article figure img {
+    object-fit: cover;
+    width: 100%;
+}
+
+#folderSection .cards-container article h3 {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+#folderSection .cards-container article p {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+#folderSection .btn {
+    background-color: #E66558;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 14px 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    border: solid 1px #E66558;
+    transition: all ease 0.3s;
+}
+
+#folderSection .btn:hover {
+    background-color: white;
+    color: #E66558;
+}
+
+
+    /* DESKTOP Version */
+    @media screen and (min-width: 992px) {
+        /* Home section */
+        #homeSection {
+            background: linear-gradient(0deg, rgba(236, 245, 255, 0) 5%, #ECF5FF 75%);
+        }
+
+        #homeSection .section-container {
+            padding: 60px 20px 80px 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        #homeSection .title-container {
+            order: 1;
+            width: 44%;
+        }
+
+        #homeSection h1 {
+            font-size: 50px;
+            text-align: left;
+        }
+
+        #homeSection .sub-title {
+            font-size: 25px;
+        }
+
+        #homeSection #formContainer {
+            width: 467px;
+            order: 3;
+            position: absolute;
+            right: 0;
+            top: 20px;
+            margin: 0;
+            padding: 0;
+            height: 764px;
+        }
+
+        #homeSection #formContainer p {
+            margin-top: 20px;
+        }
+
+        #homeSection #proof {
+            order: 2;
+            width: 57%;
+        }
+
+        #homeSection #proof h2 {
+            font-size: 25px;
+            line-height: 34px;
+            margin: 40px 0;
+            text-align: left;
+        }
+
+        #homeSection .cards-container {
+            flex-direction: row;
+            gap: 30px;
+        }
+
+        #homeSection .cards-container article {
+            justify-content: flex-start;
+        }
+
+        #homeSection .cards-container article:nth-of-type(2) {
+            border-left: 1px solid #7CA8DF;
+            border-right: 1px solid #7CA8DF;
+            padding: 0 30px;
+        }
+
+
+        /* Section fiscalités */
+        #fiscalite .section-container {
+            padding: 40px 20px 0 20px;
+        }
+
+        #fiscalite .title-container p {
+            font-size: 20px;
+        }
+
+        #fiscalite .title-container h2 {
+            font-size: 28px;
+            line-height: 42px;
+            margin-bottom: 40px;
+        }
+
+        #fiscalite .content {
+            display: flex;
+            justify-content: center;
+        }
+
+        #fiscalite .content ul {
+            border-right: 1px solid #7CA8DF;
+            padding-right: 50px;
+            height: max-content;
+        }
+
+        #fiscalite .content ul li {
+            margin-bottom: 30px;
+        }
+
+        #fiscalite .content ul li .text {
+            flex-direction: row-reverse;
+        }
+
+        #fiscalite .content ul li .text h3 {
+            margin-right: 10px;
+        }
+
+        #fiscalite .content ul li p {
+            margin-right: 34px;
+            text-align: right;
+        }
+
+        #fiscalite .content ul a {
+            padding: 14px 40px;
+            margin: 30px 0 0 auto;
+        }
+
+        #fiscalite .content figure {
+            margin: 0 0 0 50px;
+            height: auto;
+        }
+
+
+        /* Folder section */
+        #folderSection .sub-title {
+            font-size: 20px;
+        }
+
+        #folderSection h2 {
+            font-size: 28px;
+            margin: 15px 0 30px 0;
+        }
+
+        #folderSection #engagements {
+            flex-direction: row;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        #folderSection .cards-container {
+            flex-direction: row;
+        }
+
+        #folderSection .btn {
+            padding: 14px 40px;
+        }
+    }
